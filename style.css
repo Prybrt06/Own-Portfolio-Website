@@ -14,7 +14,7 @@
 
 .main
 {
-    height: 800px;
+    padding: 30px;
     width: 100%;
     background-color: blanchedalmond;
     text-align: center;
@@ -31,6 +31,7 @@
     color: blueviolet;
     text-decoration: none;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 .link:hover
@@ -45,7 +46,6 @@
     background-color: black;
     overflow: hidden;
     width: 450px;
-    height: 250px;
     border-radius: 8px;
 }
 
