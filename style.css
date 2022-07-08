@@ -1,4 +1,5 @@
 *{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -27,6 +28,7 @@
 
 .link
 {
+    color: blueviolet;
     text-decoration: none;
     text-decoration: none;
 }
@@ -34,4 +36,76 @@
 .link:hover
 {
     color:darkcyan;
+}
+
+.linkedIn
+{
+    position: relative;
+    left: 495px;
+    background-color: black;
+    overflow: hidden;
+    width: 450px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.linkedInLogo
+{
+    background-color: gray;
+}
+
+.linkedInLogoImage
+{
+    position: relative;
+    left: -158px;
+    top: 4px;
+    height: 25px;
+    padding: 10px 0 10px 0;
+}
+
+.profileInfo
+{
+    padding: 20px;
+}
+
+.profilePhoto
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    overflow: hidden;
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D03AQHxRHgoFRlYBQ/profile-displayphoto-shrink_200_200/0/1655480499017?e=1662595200&v=beta&t=EeyY6qncyHsjeQfMrG5EcSrT8LD84iFjVhXPqYvNdeA');
+    background-size: 60px 60px;
+}
+
+.profilePhotoImage
+{
+    display: block;
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+.name
+{
+    color: white;
+    text-align-last: left;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+.name:hover
+{
+    text-decoration: underline;
+}
+
+.description
+{
+    color: white;
+    text-align-last: left;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.5em;
 }
