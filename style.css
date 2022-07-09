@@ -15,7 +15,6 @@
 .main
 {
     padding: 30px;
-    width: 100%;
     background-color: blanchedalmond;
     text-align: center;
     text-align-last: center;
@@ -41,8 +40,7 @@
 
 .linkedIn
 {
-    position: relative;
-    left: 495px;
+    margin: auto;
     background-color: black;
     overflow: hidden;
     width: 450px;
@@ -90,6 +88,7 @@
 .name
 {
     color: white;
+    text-align: left;
     text-align-last: left;
     padding: 10px 0 10px 0;
     text-decoration: none;
@@ -106,6 +105,7 @@
     text-align-last: left;
     font-size: 15px;
     text-align: left;
+    text-align: justify;
     font-weight: 500;
     line-height: 1.5em;
 }
